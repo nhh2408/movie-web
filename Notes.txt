@@ -1,0 +1,32 @@
+ - Tiêu đề xác thực (Authentication Header) là một loại tiêu đề trong giao thức HTTP được sử dụng để xác định danh tính của người dùng hoặc ứng dụng gửi yêu cầu đến máy chủ. Điều này giúp máy chủ biết rằng yêu cầu đến từ người dùng nào và có quyền truy cập vào các tài nguyên cụ thể hay không.
+
+ - Trong Axios, headers là một đối tượng được sử dụng để định nghĩa các tiêu đề HTTP được gửi kèm theo yêu cầu HTTP của bạn. Tiêu đề (headers) là các thông tin bổ sung được gửi cùng với yêu cầu HTTP để cung cấp các thông tin liên quan đến yêu cầu, chẳng hạn như thông tin xác thực, định dạng dữ liệu, ngôn ngữ, và nhiều thông tin khác.
+
+ - Trong Axios, params là một đối tượng được sử dụng để định nghĩa các tham số truy vấn (query parameters) gửi kèm theo yêu cầu HTTP của bạn. Tham số truy vấn là các thông số được gắn vào URL của yêu cầu HTTP để truyền thông tin bổ sung từ người dùng đến máy chủ.
+
+ - react-player là một thư viện React được sử dụng để nhúng và quản lý việc phát các phương tiện đa phương tiện như video và âm thanh trong ứng dụng của bạn. Thư viện này giúp bạn dễ dàng tích hợp các trình phát video và âm thanh vào ứng dụng React của mình mà không cần viết mã HTML và JavaScript phức tạp.
+    Ex: Nhúng video youtube vào react
+    <ReactPlayer
+      url="https://www.youtube.com/watch?v=your-video-id"
+      controls // Hiển thị các nút điều khiển
+      width="480px"
+      height="270px"
+    />
+
+ - react-select là một thư viện React được sử dụng để tạo các thành phần giao diện người dùng cho việc chọn giá trị từ danh sách tùy chọn. Thường thì các thành phần này được gọi là "dropdown", "select box" hoặc "combo box".
+    Ex: sử dụng react-select để tạo một trường chọn
+    const options = [
+      { value: 'apple', label: 'Apple' },
+      { value: 'banana', label: 'Banana' },
+      { value: 'orange', label: 'Orange' }
+    ];
+    const MySelect = () => {
+      return (
+        <Select options={options} />
+      );
+    };
+
+ - react-infinite-scroll-component là một thư viện React giúp bạn thực hiện tính năng cuộn vô tận (infinite scroll) trong ứng dụng của mình. Tính năng cuộn vô tận cho phép tải dữ liệu một cách tương tác khi người dùng cuộn đến cuối trang hoặc một phần giao diện cụ thể. Thường thì nó được sử dụng để tải dữ liệu một trang (page) mới hoặc thêm nội dung khi người dùng cuộn xuống.
+  + Features: Tải dữ liệu theo yêu cầu, Tùy chỉnh ngưỡng cuộn, Cài đặt tùy chỉnh
+
+ -
