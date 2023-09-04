@@ -1,5 +1,4 @@
 @import "../../../mixins.scss";
-
 .detailsBanner {
   width: 100%;
   background-color: var(--black);
@@ -32,11 +31,12 @@
   .opacity-layer {
     width: 100%;
     height: 250px;
-    background: linear-gradient(180deg, rgba(4, 21, 45, 0) 0%, #04125d 79.17%);
+    background: linear-gradient(180deg, rgba(4, 21, 45, 0) 0%, #04152d 79.17%);
     position: absolute;
     bottom: 0;
     left: 0;
   }
+
   .content {
     display: flex;
     position: relative;
@@ -67,7 +67,7 @@
           line-height: 44px;
         }
       }
-      .subTitle {
+      .subtitle {
         font-size: 16px;
         line-height: 24px;
         margin-bottom: 15px;
@@ -128,9 +128,9 @@
           transition: all 0.7s ease-in-out;
         }
         .circle {
+          stroke: white;
           stroke-dasharray: 650;
           stroke-dashoffset: 1300;
-          stroke: white;
           transition: all 0.5s ease-in-out;
         }
         &:hover {
@@ -155,6 +155,7 @@
         gap: 25px;
         margin-bottom: 25px;
       }
+
       .info {
         border-bottom: 1px solid rgba(255, 255, 255, 0.1);
         padding: 15px 0;
@@ -176,7 +177,8 @@
       }
     }
   }
-  .detailsBanner .Skeleton {
+
+  .detailsBannerSkeleton {
     display: flex;
     position: relative;
     flex-direction: column;
@@ -194,7 +196,7 @@
       width: 100%;
       display: block;
       border-radius: 12px;
-      aspect-ratio: 1 / 1.5;
+      aspect-ratio: 1/1.5;
       @include md {
         max-width: 350px;
       }
